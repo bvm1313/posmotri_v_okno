@@ -93,7 +93,6 @@ ol {
   position: relative;
   height: 386px;
   margin-bottom: 16px;
-  overflow: hidden;
 }
 
 .result__video {
@@ -101,9 +100,6 @@ ol {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  &:focus {
-    outline: none;
-  }
 }
 
 .content__details {
